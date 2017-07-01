@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8944E7B41EFF4F9200410CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944E7B31EFF4F9200410CEA /* main.m */; };
+		8944E7B71EFF4F9200410CEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944E7B61EFF4F9200410CEA /* AppDelegate.m */; };
+		8944E7BD1EFF4F9200410CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8944E7BB1EFF4F9200410CEA /* Main.storyboard */; };
+		8944E7BF1EFF4F9200410CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8944E7BE1EFF4F9200410CEA /* Assets.xcassets */; };
+		8944E7C21EFF4F9200410CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8944E7C01EFF4F9200410CEA /* LaunchScreen.storyboard */; };
+		8944E7CD1EFF4F9200410CEA /* MicroTFSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944E7CC1EFF4F9200410CEA /* MicroTFSTests.m */; };
+		8944E7D81EFF4F9200410CEA /* MicroTFSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944E7D71EFF4F9200410CEA /* MicroTFSUITests.m */; };
+		8944E7ED1EFF500F00410CEA /* MicroTFS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944E7EC1EFF500F00410CEA /* MicroTFS.m */; };
+		8944E7FD1EFF572B00410CEA /* Iteration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944E7F01EFF572B00410CEA /* Iteration.m */; };
+		8944E7FE1EFF572B00410CEA /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944E7F21EFF572B00410CEA /* Member.m */; };
+		8944E7FF1EFF572B00410CEA /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944E7F41EFF572B00410CEA /* Project.m */; };
+		8944E8001EFF572B00410CEA /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944E7F61EFF572B00410CEA /* State.m */; };
+		8944E8011EFF572B00410CEA /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944E7F81EFF572B00410CEA /* Team.m */; };
+		8944E8021EFF572B00410CEA /* WorkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944E7FA1EFF572B00410CEA /* WorkItem.m */; };
+		8944E8031EFF572B00410CEA /* WorkItemType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944E7FC1EFF572B00410CEA /* WorkItemType.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8944E7C91EFF4F9200410CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8944E7A71EFF4F9200410CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8944E7AE1EFF4F9200410CEA;
+			remoteInfo = MicroTFS;
+		};
+		8944E7D41EFF4F9200410CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8944E7A71EFF4F9200410CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8944E7AE1EFF4F9200410CEA;
+			remoteInfo = MicroTFS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8944E7AF1EFF4F9200410CEA /* MicroTFS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroTFS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8944E7B31EFF4F9200410CEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8944E7B51EFF4F9200410CEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8944E7B61EFF4F9200410CEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8944E7BC1EFF4F9200410CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8944E7BE1EFF4F9200410CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8944E7C11EFF4F9200410CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8944E7C31EFF4F9200410CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8944E7C81EFF4F9200410CEA /* MicroTFSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroTFSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8944E7CC1EFF4F9200410CEA /* MicroTFSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicroTFSTests.m; sourceTree = "<group>"; };
+		8944E7CE1EFF4F9200410CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8944E7D31EFF4F9200410CEA /* MicroTFSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroTFSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8944E7D71EFF4F9200410CEA /* MicroTFSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicroTFSUITests.m; sourceTree = "<group>"; };
+		8944E7D91EFF4F9200410CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8944E7EB1EFF500F00410CEA /* MicroTFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicroTFS.h; sourceTree = "<group>"; };
+		8944E7EC1EFF500F00410CEA /* MicroTFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicroTFS.m; sourceTree = "<group>"; };
+		8944E7EF1EFF572B00410CEA /* Iteration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iteration.h; sourceTree = "<group>"; };
+		8944E7F01EFF572B00410CEA /* Iteration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Iteration.m; sourceTree = "<group>"; };
+		8944E7F11EFF572B00410CEA /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		8944E7F21EFF572B00410CEA /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		8944E7F31EFF572B00410CEA /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		8944E7F41EFF572B00410CEA /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		8944E7F51EFF572B00410CEA /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		8944E7F61EFF572B00410CEA /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		8944E7F71EFF572B00410CEA /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		8944E7F81EFF572B00410CEA /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		8944E7F91EFF572B00410CEA /* WorkItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkItem.h; sourceTree = "<group>"; };
+		8944E7FA1EFF572B00410CEA /* WorkItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkItem.m; sourceTree = "<group>"; };
+		8944E7FB1EFF572B00410CEA /* WorkItemType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkItemType.h; sourceTree = "<group>"; };
+		8944E7FC1EFF572B00410CEA /* WorkItemType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkItemType.m; sourceTree = "<group>"; };
+		8944E8041EFF623A00410CEA /* TFSURI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSURI.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8944E7AC1EFF4F9200410CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8944E7C51EFF4F9200410CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8944E7D01EFF4F9200410CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8944E7A61EFF4F9200410CEA = {
+			isa = PBXGroup;
+			children = (
+				8944E7B11EFF4F9200410CEA /* MicroTFS */,
+				8944E7CB1EFF4F9200410CEA /* MicroTFSTests */,
+				8944E7D61EFF4F9200410CEA /* MicroTFSUITests */,
+				8944E7B01EFF4F9200410CEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8944E7B01EFF4F9200410CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8944E7AF1EFF4F9200410CEA /* MicroTFS.app */,
+				8944E7C81EFF4F9200410CEA /* MicroTFSTests.xctest */,
+				8944E7D31EFF4F9200410CEA /* MicroTFSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8944E7B11EFF4F9200410CEA /* MicroTFS */ = {
+			isa = PBXGroup;
+			children = (
+				8944E7EA1EFF500F00410CEA /* Shared */,
+				8944E7B51EFF4F9200410CEA /* AppDelegate.h */,
+				8944E7B61EFF4F9200410CEA /* AppDelegate.m */,
+				8944E7BB1EFF4F9200410CEA /* Main.storyboard */,
+				8944E7BE1EFF4F9200410CEA /* Assets.xcassets */,
+				8944E7C01EFF4F9200410CEA /* LaunchScreen.storyboard */,
+				8944E7C31EFF4F9200410CEA /* Info.plist */,
+				8944E7B21EFF4F9200410CEA /* Supporting Files */,
+			);
+			path = MicroTFS;
+			sourceTree = "<group>";
+		};
+		8944E7B21EFF4F9200410CEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8944E7B31EFF4F9200410CEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8944E7CB1EFF4F9200410CEA /* MicroTFSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8944E7CC1EFF4F9200410CEA /* MicroTFSTests.m */,
+				8944E7CE1EFF4F9200410CEA /* Info.plist */,
+			);
+			path = MicroTFSTests;
+			sourceTree = "<group>";
+		};
+		8944E7D61EFF4F9200410CEA /* MicroTFSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8944E7D71EFF4F9200410CEA /* MicroTFSUITests.m */,
+				8944E7D91EFF4F9200410CEA /* Info.plist */,
+			);
+			path = MicroTFSUITests;
+			sourceTree = "<group>";
+		};
+		8944E7EA1EFF500F00410CEA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8944E7EE1EFF572B00410CEA /* Model */,
+				8944E8041EFF623A00410CEA /* TFSURI.h */,
+				8944E7EB1EFF500F00410CEA /* MicroTFS.h */,
+				8944E7EC1EFF500F00410CEA /* MicroTFS.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8944E7EE1EFF572B00410CEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8944E7EF1EFF572B00410CEA /* Iteration.h */,
+				8944E7F01EFF572B00410CEA /* Iteration.m */,
+				8944E7F11EFF572B00410CEA /* Member.h */,
+				8944E7F21EFF572B00410CEA /* Member.m */,
+				8944E7F31EFF572B00410CEA /* Project.h */,
+				8944E7F41EFF572B00410CEA /* Project.m */,
+				8944E7F51EFF572B00410CEA /* State.h */,
+				8944E7F61EFF572B00410CEA /* State.m */,
+				8944E7F71EFF572B00410CEA /* Team.h */,
+				8944E7F81EFF572B00410CEA /* Team.m */,
+				8944E7F91EFF572B00410CEA /* WorkItem.h */,
+				8944E7FA1EFF572B00410CEA /* WorkItem.m */,
+				8944E7FB1EFF572B00410CEA /* WorkItemType.h */,
+				8944E7FC1EFF572B00410CEA /* WorkItemType.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8944E7AE1EFF4F9200410CEA /* MicroTFS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8944E7DC1EFF4F9200410CEA /* Build configuration list for PBXNativeTarget "MicroTFS" */;
+			buildPhases = (
+				8944E7AB1EFF4F9200410CEA /* Sources */,
+				8944E7AC1EFF4F9200410CEA /* Frameworks */,
+				8944E7AD1EFF4F9200410CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicroTFS;
+			productName = MicroTFS;
+			productReference = 8944E7AF1EFF4F9200410CEA /* MicroTFS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8944E7C71EFF4F9200410CEA /* MicroTFSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8944E7DF1EFF4F9200410CEA /* Build configuration list for PBXNativeTarget "MicroTFSTests" */;
+			buildPhases = (
+				8944E7C41EFF4F9200410CEA /* Sources */,
+				8944E7C51EFF4F9200410CEA /* Frameworks */,
+				8944E7C61EFF4F9200410CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8944E7CA1EFF4F9200410CEA /* PBXTargetDependency */,
+			);
+			name = MicroTFSTests;
+			productName = MicroTFSTests;
+			productReference = 8944E7C81EFF4F9200410CEA /* MicroTFSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8944E7D21EFF4F9200410CEA /* MicroTFSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8944E7E21EFF4F9200410CEA /* Build configuration list for PBXNativeTarget "MicroTFSUITests" */;
+			buildPhases = (
+				8944E7CF1EFF4F9200410CEA /* Sources */,
+				8944E7D01EFF4F9200410CEA /* Frameworks */,
+				8944E7D11EFF4F9200410CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8944E7D51EFF4F9200410CEA /* PBXTargetDependency */,
+			);
+			name = MicroTFSUITests;
+			productName = MicroTFSUITests;
+			productReference = 8944E7D31EFF4F9200410CEA /* MicroTFSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8944E7A71EFF4F9200410CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Duc Ngo";
+				TargetAttributes = {
+					8944E7AE1EFF4F9200410CEA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					8944E7C71EFF4F9200410CEA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8944E7AE1EFF4F9200410CEA;
+					};
+					8944E7D21EFF4F9200410CEA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8944E7AE1EFF4F9200410CEA;
+					};
+				};
+			};
+			buildConfigurationList = 8944E7AA1EFF4F9200410CEA /* Build configuration list for PBXProject "MicroTFS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8944E7A61EFF4F9200410CEA;
+			productRefGroup = 8944E7B01EFF4F9200410CEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8944E7AE1EFF4F9200410CEA /* MicroTFS */,
+				8944E7C71EFF4F9200410CEA /* MicroTFSTests */,
+				8944E7D21EFF4F9200410CEA /* MicroTFSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8944E7AD1EFF4F9200410CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8944E7C21EFF4F9200410CEA /* LaunchScreen.storyboard in Resources */,
+				8944E7BF1EFF4F9200410CEA /* Assets.xcassets in Resources */,
+				8944E7BD1EFF4F9200410CEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8944E7C61EFF4F9200410CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8944E7D11EFF4F9200410CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8944E7AB1EFF4F9200410CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8944E8011EFF572B00410CEA /* Team.m in Sources */,
+				8944E8031EFF572B00410CEA /* WorkItemType.m in Sources */,
+				8944E7ED1EFF500F00410CEA /* MicroTFS.m in Sources */,
+				8944E7FD1EFF572B00410CEA /* Iteration.m in Sources */,
+				8944E7B71EFF4F9200410CEA /* AppDelegate.m in Sources */,
+				8944E7FF1EFF572B00410CEA /* Project.m in Sources */,
+				8944E8021EFF572B00410CEA /* WorkItem.m in Sources */,
+				8944E8001EFF572B00410CEA /* State.m in Sources */,
+				8944E7B41EFF4F9200410CEA /* main.m in Sources */,
+				8944E7FE1EFF572B00410CEA /* Member.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8944E7C41EFF4F9200410CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8944E7CD1EFF4F9200410CEA /* MicroTFSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8944E7CF1EFF4F9200410CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8944E7D81EFF4F9200410CEA /* MicroTFSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8944E7CA1EFF4F9200410CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8944E7AE1EFF4F9200410CEA /* MicroTFS */;
+			targetProxy = 8944E7C91EFF4F9200410CEA /* PBXContainerItemProxy */;
+		};
+		8944E7D51EFF4F9200410CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8944E7AE1EFF4F9200410CEA /* MicroTFS */;
+			targetProxy = 8944E7D41EFF4F9200410CEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8944E7BB1EFF4F9200410CEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8944E7BC1EFF4F9200410CEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8944E7C01EFF4F9200410CEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8944E7C11EFF4F9200410CEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8944E7DA1EFF4F9200410CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8944E7DB1EFF4F9200410CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8944E7DD1EFF4F9200410CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MicroTFS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hd.MicroTFS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8944E7DE1EFF4F9200410CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MicroTFS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hd.MicroTFS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8944E7E01EFF4F9200410CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MicroTFSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hd.MicroTFSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicroTFS.app/MicroTFS";
+			};
+			name = Debug;
+		};
+		8944E7E11EFF4F9200410CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MicroTFSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hd.MicroTFSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicroTFS.app/MicroTFS";
+			};
+			name = Release;
+		};
+		8944E7E31EFF4F9200410CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MicroTFSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hd.MicroTFSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MicroTFS;
+			};
+			name = Debug;
+		};
+		8944E7E41EFF4F9200410CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MicroTFSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hd.MicroTFSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MicroTFS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8944E7AA1EFF4F9200410CEA /* Build configuration list for PBXProject "MicroTFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8944E7DA1EFF4F9200410CEA /* Debug */,
+				8944E7DB1EFF4F9200410CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8944E7DC1EFF4F9200410CEA /* Build configuration list for PBXNativeTarget "MicroTFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8944E7DD1EFF4F9200410CEA /* Debug */,
+				8944E7DE1EFF4F9200410CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8944E7DF1EFF4F9200410CEA /* Build configuration list for PBXNativeTarget "MicroTFSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8944E7E01EFF4F9200410CEA /* Debug */,
+				8944E7E11EFF4F9200410CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8944E7E21EFF4F9200410CEA /* Build configuration list for PBXNativeTarget "MicroTFSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8944E7E31EFF4F9200410CEA /* Debug */,
+				8944E7E41EFF4F9200410CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8944E7A71EFF4F9200410CEA /* Project object */;
+}
